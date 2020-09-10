@@ -5,7 +5,7 @@ import { Component, OnInit, Input } from '@angular/core';
   templateUrl: './the-button.component.html',
   styleUrls: ['./the-button.component.less']
 })
-export class TheButtonComponent implements OnInit {
+export class MyTheButtonComponent implements OnInit {
 
   @Input() text: string;
 
