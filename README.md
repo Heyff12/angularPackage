@@ -11,7 +11,7 @@ cd xxxx
 ng g library my-lib --prefix=ml
 
 3.编译
-ng build my-lib
+ng build my-lib --prod
 
 4.编译后会生成dist文件，进入dist文件
 cd dist
@@ -21,4 +21,4 @@ cd my-lib
 npm pack
 
 6.发布
-npm publish my-lib....
+npm publish --access public
