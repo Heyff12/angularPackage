@@ -1,27 +1,24 @@
-# AngularPackage
+1.创建工作区
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
+ng new xxxx --create-application=false  
 
-## Development server
+xxxx为项目名
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+2.进入项目新建library
 
-## Code scaffolding
+cd xxxx
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+ng g library my-lib --prefix=ml
 
-## Build
+3.编译
+ng build my-lib
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+4.编译后会生成dist文件，进入dist文件
+cd dist
+cd my-lib
+5.打包
 
-## Running unit tests
+npm pack
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+6.发布
+npm publish my-lib....
