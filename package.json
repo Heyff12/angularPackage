@@ -8,7 +8,8 @@
     "build:lib": "ng build my-lib --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "push:resue":"git subtree push --prefix dist/my-lib origin reuse"
   },
   "private": true,
   "dependencies": {
