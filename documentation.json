@@ -609,6 +609,22 @@
                 "defaultValue": "Template.bind({})"
             },
             {
+                "name": "Long",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/TheButton.stories.ts",
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
+                "name": "Long",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/my-lib/src/lib/the-button/TheButton.stories.ts",
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
                 "name": "Primary",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
@@ -635,6 +651,22 @@
                 "ctype": "miscellaneous",
                 "subtype": "variable",
                 "file": "src/stories/Button.stories.ts",
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
+                "name": "Short",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/TheButton.stories.ts",
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
+                "name": "Short",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/my-lib/src/lib/the-button/TheButton.stories.ts",
                 "type": "",
                 "defaultValue": "Template.bind({})"
             },
@@ -669,6 +701,22 @@
                 "file": "src/stories/Page.stories.ts",
                 "type": "Story<Page>",
                 "defaultValue": "(args: Page) => ({\n  component: Page,\n  props: args,\n})"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/TheButton.stories.ts",
+                "type": "Story<MyTheButtonComponent>",
+                "defaultValue": "(args: MyTheButtonComponent) => ({\n  component: MyTheButtonComponent,\n  props: args,\n})"
+            },
+            {
+                "name": "Template",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/my-lib/src/lib/the-button/TheButton.stories.ts",
+                "type": "Story<MyTheButtonComponent>",
+                "defaultValue": "(args: MyTheButtonComponent) => ({\n  component: MyTheButtonComponent,\n  props: args,\n})"
             }
         ],
         "functions": [],
@@ -822,6 +870,58 @@
                     "type": "Story<Page>",
                     "defaultValue": "(args: Page) => ({\n  component: Page,\n  props: args,\n})"
                 }
+            ],
+            "src/stories/TheButton.stories.ts": [
+                {
+                    "name": "Long",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/TheButton.stories.ts",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Short",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/TheButton.stories.ts",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/TheButton.stories.ts",
+                    "type": "Story<MyTheButtonComponent>",
+                    "defaultValue": "(args: MyTheButtonComponent) => ({\n  component: MyTheButtonComponent,\n  props: args,\n})"
+                }
+            ],
+            "projects/my-lib/src/lib/the-button/TheButton.stories.ts": [
+                {
+                    "name": "Long",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/my-lib/src/lib/the-button/TheButton.stories.ts",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Short",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/my-lib/src/lib/the-button/TheButton.stories.ts",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/my-lib/src/lib/the-button/TheButton.stories.ts",
+                    "type": "Story<MyTheButtonComponent>",
+                    "defaultValue": "(args: MyTheButtonComponent) => ({\n  component: MyTheButtonComponent,\n  props: args,\n})"
+                }
             ]
         },
         "groupedFunctions": {},
@@ -843,7 +943,7 @@
         ]
     },
     "coverage": {
-        "count": 3,
+        "count": 2,
         "status": "low",
         "files": [
             {
@@ -871,6 +971,36 @@
                 "name": "MyLibService",
                 "coveragePercent": 0,
                 "coverageCount": "0/2",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/my-lib/src/lib/the-button/TheButton.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Long",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/my-lib/src/lib/the-button/TheButton.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Short",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/my-lib/src/lib/the-button/TheButton.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Template",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
                 "status": "low"
             },
             {
@@ -1033,6 +1163,36 @@
             },
             {
                 "filePath": "src/stories/Page.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Template",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/TheButton.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Long",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/TheButton.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Short",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/TheButton.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",

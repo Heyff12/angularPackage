@@ -163,6 +163,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angularPackage"
+    }
+  },
+  "defaultProject": "angularPackage",
+  "cli": {
+    "analytics": false
+  }
 }
